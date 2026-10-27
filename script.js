@@ -1,4 +1,5 @@
 document.getElementById("myButton").addEventListener("click", function () {
+    const now = new Date();
     document.getElementById("output").textContent =
-        "Pipeline CI/CD hoạt động thành công!";
+        "Bây giờ là: " + now.toLocaleString("vi-VN");
 });
